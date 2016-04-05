@@ -1,1 +1,134 @@
-f
+@charset "utf-8";
+/* CSS Document */
+
+.row
+{
+	min-width: 100% !important;
+}
+
+body
+{
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Muli', sans-serif;
+	color: #000000;
+}
+
+#headerCon
+{
+	text-align: center;
+}
+
+
+/*                         COVER IMAGE SLIDESHOW START*/
+#slideshowContainer
+{
+	height: 250px;
+	width: 1000px;
+	margin: 0 auto;
+	right: 15px;
+	margin-top: 20px;
+	transition: all 0.5s ease;
+}
+
+#mainSliderImage
+{
+	height: 250px;
+	width: 1000px;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.5s ease;
+}
+
+#leftHolder
+{
+	height: 450px;
+	width: 100px;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+}
+
+#leftHolder img
+{
+	border-radius: 10px;
+}
+
+.left
+{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 10px;
+}
+
+.right
+{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	right: 10px;
+}
+
+#rightHolder
+{
+	height: 450px;
+	width: 100px;
+	position: absolute;
+	right: -15px;
+	top: 0px;
+}
+
+#rightHolder img
+{
+	border-radius: 10px;
+}
+
+/*                            COVER IMAGE SLIDESHOW END*/
+
+
+@media screen and (min-width: 605px) 
+{
+	#mainImage img
+	{
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 1518px) 
+{
+	#mainImage img
+	{
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 1213px) 
+{
+	#slideshowContainer
+	{
+		width: 1200px;
+	}
+
+	#mainSliderImage
+	{
+		width: 1200px;
+	}
+}
+
+@media screen and (min-width: 1634px) 
+{
+	#slideshowContainer
+	{
+		width: 1600px;
+	}
+
+	#mainSliderImage
+	{
+		width: 1600px;
+	}
+}
